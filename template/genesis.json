@@ -1,0 +1,39 @@
+{
+  "config": {
+    "chainId": 1,
+    "homesteadBlock": 0,
+    "eip150Block": 0,
+    "eip155Block": 0,
+    "eip158Block": 0,
+    "byzantiumBlock": 0,
+    "constantinopleBlock": 0,
+    "petersburgBlock": 0,
+    "istanbulBlock": 0,
+    "berlinBlock": 0,
+    "clique": {
+      "period": 5,
+      "epoch": 30000
+    }
+  },
+  "difficulty": "1",
+  "gasLimit": "8000000",
+  "extradata": "0x0000000000000000000000000000000000000000000000000000000000000000573df0eb2f042bf92a897a5c37c144f717ed1dd70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "alloc": {
+    "0x573Df0Eb2F042bf92a897A5C37c144F717Ed1dd7": {
+      "balance": "10000000000000000000000000000000000000000000000000"
+    },
+    "0xE299f6C62cE7ffF866c933Adc08b83b40a0C5904": {
+      "balance": "100000000000000000000000000"
+    },
+    "0xF1dC4DCE1d2660DDa0e90C9447B687f405ABd42E": {
+      "balance": "100000000000000000000000000"
+    },
+    "0x902B5bBB9f7FEc498F60BA2781dD92EEb3A2110B": {
+      "balance": "200000000000000000000"
+    },
+    "0x03748A6aBD505109D7E80C6418a9bde3746f06C3": {
+      "balance": "50000000000000000000"
+    }
+  }
+}
+

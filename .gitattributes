@@ -1,0 +1,12 @@
+# Beri tahu Git untuk menangani baris baru secara otomatis
+* text=auto
+
+# Paksa shell script agar selalu menggunakan LF (Penting untuk Docker/Linux)
+*.sh text eol=lf
+Dockerfile text eol=lf
+
+# File lain tetap mengikuti aturan otomatis
+*.json text
+*.txt text
+*.md text
+LICENSE text

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  evm-simulation:
+    build: .
+    container_name: geth-reorg-sim
+    volumes:
+      - ./data:/app/data
+    stdin_open: true # Allows interactive menu (read -p)
+    tty: true        # Allows interactive menu
+    network_mode: "host" # Shares host ports, easier for local testing if needed
+                         # and allows 127.0.0.1 to work as expected between internal processes
+    restart: unless-stopped
